@@ -6,7 +6,9 @@
 }
 
 .white-box {
-    border: 1px gray;
+    border: 1px solid black;
+    padding-left: 50px;
+    padding-right: 50px;
     
 }
 
@@ -22,13 +24,16 @@
     
 }
 
+.box1{
+    padding-left: 10px;
+}
+
 .search {
-    padding-left: 50px;
     border: 1px solid black;
     background:#33cc66;
     height: 70px;
     border-radius:5px;
-    margin-left: 10%;
+    
 }
 
 .tasks {
@@ -47,8 +52,43 @@
     border: 1px solid black;
     height: 600px;
     background: green;
+    margin-top: -100px;
     }
 
+.contacts {
+    border: 1px solid black;
+    float: right;
+    margin-top:-500px;
+    height: 270px;
+}
+
+.did {
+    margin-top:-230px;
+    border: 1px solid black;
+    height: 230px;
+
+}
+ 
+ .ads {
+    border: 1px solid black;
+    height: 220px;
+    
+ }
+
+/* centered columns styles */
+.row-centered {
+    text-align:center;
+}
+
+.col-centered {
+    display:inline-block;
+    float:none;
+    /* reset the text-align */
+    text-align:left;
+    /* inline-block space fix */
+    margin-right:-4px;
+}
+    
 .border-top-radius(@radius) {
   border-top-right-radius: @radius;
    border-top-left-radius: @radius;
