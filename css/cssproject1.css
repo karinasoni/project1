@@ -1,8 +1,67 @@
-.gray-box{
-    border: 1px solid black;
-    background: gray;
-    padding:25px;
+body {
+    
+    font-family: myriad pro, sans-serif;
+}
 
+.navigation{
+    border: 1px solid black;
+    padding:25px;
+    background-image: url(menubackground.gif);
+    height:111px;
+    padding-left:310px;
+    background-size: 100% auto;
+
+}
+    
+.navlist {
+    position: absolute;
+}
+
+.navlist li {
+    padding-top:30px;
+    list-style: none;
+    position: absolute;
+    top: 0;
+}
+
+.navlist li, .navlist a {
+    display: block;
+}
+
+.ds {
+    margin-bottom: 0px;
+}
+
+.cg {
+    margin-left:90px;
+    margin-top:10px;
+}
+
+.mg {
+    margin-left:180px;
+    margin-top:10px;
+}
+
+.pg {
+    margin-left: 270px;
+    margin-top:10px;
+}
+
+.gp {
+    margin-left: 345px;
+    margin-top:5px;
+}
+
+.ag {
+    margin-left: 425px;
+    margin-top: 10px;
+}
+
+.nl{
+    padding-top: 30px;
+}
+.community {
+    margin-right:100px;
 }
 
 .white-box {
@@ -16,6 +75,9 @@
     height: 45px;
     background: #208ce3;
     border: 1px solid black;
+    color: white;
+    padding-left: 850px;
+    padding-top: 10px;
 }
 
 .third-row {
@@ -43,7 +105,7 @@
 
 }
 
-.analytics {
+.analyticss {
     height:400px;
     border: 1px solid black;
 }
@@ -87,6 +149,14 @@
     text-align:left;
     /* inline-block space fix */
     margin-right:-4px;
+}
+
+
+
+.spacerimg{
+    padding-left: 15px;
+    padding-right: 15px;
+    
 }
     
 .border-top-radius(@radius) {

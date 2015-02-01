@@ -1,17 +1,5 @@
-.gear, .question, .spacer, .PromotionsGreen1, .promotions, .customers-green, .analytics-green, .analytics, .messages-green, .messages, .dashboard-green, .dashboard, .Search, .up-arrow-blue, .community, .checked-box_03, .uncheckedbox, .active-facebook, .active-foursquare, .active-twitter, .active-youtube, .in-facebok, .in-foursquare, .in-twitter, .in-youtube, .arrow-right, .arrow-left, .green4, .greenbulb, .greencheck, .greenpaper, .green2, .green3, .greygear, .blueperson, .greytiny, .grey1{
+.spacer, .PromotionsGreen1, .promotions, .customers-green, .analytics-green, .analytics, .messages-green, .messages, .dashboard-green, .dashboard, .Search, .up-arrow-blue, .checked-box_03, .uncheckedbox, .active-facebook, .active-foursquare, .active-twitter, .active-youtube, .in-facebok, .in-foursquare, .in-twitter, .in-youtube, .arrow-right, .arrow-left, .green4, .greenbulb, .greencheck, .greenpaper, .green2, .green3, .greygear, .blueperson, .greytiny, .grey1, .Menu_03, .question2, .gearwhite2, .bluepaper2, .blueperson2{
 	background: url(sprites.png) no-repeat;
-}
-
-.gear{
-	background-position: -23px -24px ;
-	width: 20px;
-	height: 20px;
-}
-
-.question{
-	background-position: -54px -25px ;
-	width: 20px;
-	height: 20px;
 }
 
 .spacer{
@@ -26,7 +14,7 @@
 	height: 69px;
 }
 
-.promotions{
+.PromotionsGreen1:hover{
 	background-position: -94px -76px ;
 	width: 58px;
 	height: 69px;
@@ -44,7 +32,7 @@
 	height: 66px;
 }
 
-.analytics{
+.analytics-green:hover{
 	background-position: -314px -79px ;
 	width: 58px;
 	height: 66px;
@@ -56,7 +44,7 @@
 	height: 65px;
 }
 
-.messages{
+.messages-green:hover{
 	background-position: -451px -79px ;
 	width: 58px;
 	height: 65px;
@@ -68,7 +56,7 @@
 	height: 73px;
 }
 
-.dashboard{
+.dashboard-green:hover {
 	background-position: -86px -160px ;
 	width: 59px;
 	height: 73px;
@@ -84,12 +72,6 @@
 	background-position: -132px -30px ;
 	width: 14px;
 	height: 9px;
-}
-
-.community{
-	background-position: -166px -159px ;
-	width: 61px;
-	height: 89px;
 }
 
 .checked-box_03{
@@ -222,5 +204,36 @@
 	background-position: -242px -158px ;
 	width: 49px;
 	height: 30px;
+}
+
+.Menu_03{
+	background-position: -85px -255px ;
+	width: 60px;
+	height: 73px;
+}
+
+.question2{
+	background-position: -41px -15px ;
+	width: 32px;
+	height: 30px;
+}
+
+.gearwhite2{
+	background-position: -4px -16px ;
+	width: 48px;
+	height: 30px;
+}
+
+.Menu_03:hover{
+	background-position: -22px -255px ;
+	width: 60px;
+	height: 73px;
+}
+
+.customers-green:hover{
+	background-position: -170px -168px;
+	width: 62px;
+	height: 64px;
+
 }
 
