@@ -11,8 +11,23 @@ h1 {
 h2 {
     color: #2498f4;
 }
+
+a {
+    text-decoration: none;
+
+    
+}
+
+ul {
+list-style-type: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
 .navigation{
-    border: 1px solid black;
+    border: 1px solid #cccccc;
     padding:25px;
     background-image: url(menubackground.gif);
     height:111px;
@@ -21,6 +36,24 @@ h2 {
     position: relative;
     width: 100%;
 
+}
+
+.smallnav {
+    background-color: #154871;
+    
+}
+
+.dropdown-menu navmenu {
+    margin-left:17em;
+}
+
+.navbtn{
+    margin-left: 2em;
+    padding-right: 40px;
+    padding-left: 40px;
+    background-color: #154871;
+    border-color: white;
+    color: white;
 }
     
 .navlist {
@@ -75,10 +108,13 @@ h2 {
 }
 
 .white-box {
-    border: 1px solid black;
+    border: 1px solid #cccccc;
     padding-left: 50px;
     padding-right: 50px;
     margin-bottom: 40px;
+    border-radius: 5px;
+    margin-right: 50px;
+    margin-left: 50px;
 
 }
 
@@ -109,41 +145,50 @@ h2 {
 
 .third-row {
     min-height: 40px;
-    border: 1px solid black;
     margin-top: 10px;
+    border-right: 1px solid #cccccc;
+    border-top: 1px solid #cccccc;
     
 }
 
 .box1 {
     color: #fe7f13;
     padding-top: .5em;
+    border-left: 1px solid #cccccc;
+    
 }
 
 .box2, .box3 {
     padding-top:.5em;
 }
 .search {
-    border: 1px solid black;
+    border: 1px solid #cccccc;
     background:#33cc66;
     min-height: 70px;
     border-radius:5px;
-    margin-top: 20px;
-    margin-bottom:20px;
     padding-top: 10px;
-    padding-right: 20px;
-    position: relative;
+    margin-top: 10px;
+
+
     
 }
 
 .form-control {
-    width: 300px;
     display: block;
     background:#FFFFFF url(Search.png) no-repeat 95%;
     position: relative;
-    right: -400px;
+    margin-left: 150px;
 
-    
-    
+}
+
+.form-control2 {
+     display: block;
+    background:#FFFFFF url(Search.png) no-repeat 95%;
+    position: relative;
+    width: 100%
+}
+
+.textsearch {
 }
 
 .top {
@@ -153,7 +198,7 @@ h2 {
 }
 
 .tasks {
-    border: 1px solid black;
+    border: 1px solid #cccccc;
     min-height: 300px;
 
 }
@@ -161,7 +206,14 @@ h2 {
 .numtasks {
     font-size: 21px;
     color: #2498f4;
+    padding-top: 50px;
 
+}
+
+.numlist {
+    padding-top:15px;
+    margin-left: -10%;
+    
 }
 
 .pr {
@@ -176,10 +228,45 @@ h2 {
     border-bottom: 1px solid #cccccc;
 }
 
+.numbercircle {
+    
+    border-radius: 50%;
+    color: #FFFFFF;
+    background-color: #33cc66;
+    padding-top: 5px;
+    padding-right: 9px;
+    padding-bottom: 5px;
+    padding-left: 9px;
+    margin-right: 10px;
+
+}
+
+.numbercircle:hover{
+    background-color:#cccccc;
+    
+}
+
+.numbercircle:link{
+    color:#FFFFFF;
+}
+
+.greytext:hover {
+color: #cccccc;
+    
+}
 .num2{
     padding-top: 3%;
     padding-bottom: 3%;
     border-bottom: 1px solid #cccccc;
+    
+}
+
+.num2:hover{
+    color:#cccccc; 
+}
+
+.num2:link {
+    text-decoration: none;
 }
 
 .stupidbox, .stupidbox2, .stupidbox3, .stupidbox4{
@@ -187,34 +274,30 @@ h2 {
     border-radius: 5px;
     position: relative;
     padding: 5px 5px 5px 5px;
+    float: right;
 
 }
 
-.stupidbox {
-     left: 27%;
+.numlist li {
+    padding-bottom: 35px;
+    border-bottom: 1px grey;
 
 }
 
-.stupidbox2 {
-    left: 24%;
-
+.smallhead {
+    background-image: url("blueperson.png");
+    width: 20px;
+    height: 20px;
+    display: inline-block;
 }
 
-.stupidbox3 {
-    left: 33%;
-
+.smallhead:hover{
+    background-image: url("greyperson.png");
+    
 }
-
-.stupidbox4 {
-    left: 46%;
-    padding: 5px 10px 5px 10px;
-
-
-}
-
 .analyticss {
     min-height:400px;
-    border: 1px solid black;
+    border: 1px solid #cccccc;
 }
 
 .act{
@@ -225,7 +308,6 @@ h2 {
 
 .channels {
     color: #cccccc;
-    padding-left:80%;
 
 }
 
@@ -238,6 +320,10 @@ h2 {
     margin-left: 4%;
 }
 
+.graph1 {
+    width: 70%;
+}
+
 .anatop {
     padding-left: 5%;
 }
@@ -245,14 +331,19 @@ h2 {
 .biggraph {
     position: relative;
     left: 10%;
+    max-width: 100%;
+    height: auto;
 }
 
 .circle {
-    float: right;
+    position: relative;
+
 }
 .greygear {
     position: relative;
-    right: -70%;
+    right: -90%;
+    margin-top: -60px;
+
 
 }
 
@@ -261,28 +352,22 @@ h2 {
 }
 
 .recommendations {
-    border: 1px solid black;
+    border: 1px solid #cccccc;
     min-height: 600px;
     margin-top: -87px;
     }
 
 .contacts {
-    border: 1px solid black;
-    float: right;
-    margin-top:-513px;
     min-height: 270px;
-    padding-top: 2%;
 }
 
 .did {
-    margin-top:-230px;
-    border: 1px solid black;
     min-height: 230px;
 
 }
  
  .ads {
-    border: 1px solid black;
+    border: 1px solid #cccccc;
     min-height: 220px;
     
  }
@@ -316,9 +401,43 @@ h2 {
     float:left;
     padding-right: 10px;
  }
- .question {
-    
+ 
+ .ads {
+    background:#2394ee;
+    padding-left: 5%;
  }
+ 
+ .ad1
+    {
+        
+    }
+ 
+ .mess1{
+    border-radius: 7px;
+    padding-left: 10%;
+    padding-top: 8%;
+ }
+ 
+ .mess2 {
+    padding-top:8%;
+    margin-left: -2em;
+    border-radius: 7px;
+ }
+ 
+ .hair1{
+    position: relative;
+    padding-top: 3%;
+ }
+
+.adwords {
+    color: white;
+    z-index: 1;
+    overflow: hidden;
+    white-space: nowrap;
+    position: absolute;
+    top: 50%;
+    margin-left: -250px;
+}
 
 /* centered columns styles */
 .row-centered {
@@ -347,6 +466,13 @@ h2 {
 
 .socialcheck{
     padding-left: 23%;
+    float: left;
+}
+
+.smallright {
+    margin-left: -20px;
+    margin-top: 10%;
+
 }
 
 input[type="checkbox"] {
@@ -376,30 +502,31 @@ input[type="checkbox"]:checked + label span {
     right: 10%;
     border-radius: 5px;
     border: 1px solid #cccccc;
-        padding: 5px 10px 5px 10px;
+    padding: 5px 10px 5px 10px;
 
 }
 
 .bluebox2 {
         background-color: #2394ee;
-        height: 11em;
-        width: 40em;
         position: relative;
-        left: 10%;
-        margin-top: 5%;
-        padding-top: 4%;
-        padding-left: 5%;
-        padding-right: 5%;
         color: white;
         border-radius: 5px;
+    margin-left: 40%;
+    margin-top: 2%;
+    margin-right: 8%;
+    padding-right: 5%;
+    padding-left: 5%;
+    padding-top: 3%;
+    padding-bottom: 3%;
 
 }
 
 .circleleft {
-    position: absolute;
-    padding-left: 4em;
-    padding-top: 6em;
-    z-index: 1;
+position: absolute;
+padding-left: -50PX;
+padding-top: 3%;
+z-index: 1;
+margin-left: -13%;
 }
 
 .circleright {
@@ -415,6 +542,8 @@ input[type="checkbox"]:checked + label span {
   height: 195px;
   margin-left: 10%;
   box-shadow: 1px 1px 6px 1px #cccccc;
+  margin-top: 5em;
+
 }
 .influ {
     font-size: 11px;
@@ -455,6 +584,59 @@ input[type="checkbox"]:checked + label span {
     right: -15%;
 }
 
+.footer {
+    border: 1px solid ;
+    height: 50px;
+    box-shadow: 0px -10px 10px #e9e9e9;
+    padding-top: 1%;
+}
+
+.tsg{
+    padding-left: 10%;
+    color:#999999;
+    border-right: 1px solid #e9e9e9;
+}
+
+.tsgspace{
+    padding-left: .25em;
+    padding-right: .25em;
+}
+
+.tsglink {
+    color: #999999;
+}
+
+.tsglink:hover{
+    color: #999999;
+    text-decoration: none;
+}
+
+.sweep {
+    padding-left: 2%;
+    border-right: 1px solid grey;
+}
+.sweeplink{
+    font-weight: bold;
+    color:#2498f2;
+}
+
+.sweeplink:hover{
+    text-decoration: none;
+    color:#2498f2;
+}
+
+.logoutimage {
+    margin-top: -2%;
+}
+
+.logoutbox {
+    margin-top: -.5%;
+    border-right: 1px solid grey;
+}
+
+.tinysocial {
+    display: -webkit-box;
+}
 
 .border-top-radius(@radius) {
   border-top-right-radius: @radius;

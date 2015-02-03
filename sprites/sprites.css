@@ -86,25 +86,25 @@
 	height: 24px;
 }
 
-.active-facebook{
+.in-facebok:hover{
 	background-position: -232px -12px ;
 	width: 16px;
 	height: 17px;
 }
 
-.active-foursquare{
+.in-foursquare:hover{
 	background-position: -252px -31px ;
 	width: 20px;
 	height: 17px;
 }
 
-.active-twitter{
+.in-twitter:hover{
 	background-position: -275px -12px ;
 	width: 20px;
 	height: 17px;
 }
 
-.active-youtube{
+.in-youtube:hover{
 	background-position: -298px -12px ;
 	width: 24px;
 	height: 17px;
