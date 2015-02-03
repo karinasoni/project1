@@ -510,7 +510,7 @@ input[type="checkbox"]:checked + label span {
         position: relative;
         color: white;
         border-radius: 5px;
-    margin-left: 40%;
+    margin-left: 10%;
     margin-top: 2%;
     margin-right: 8%;
     padding-right: 5%;
@@ -525,14 +525,14 @@ position: absolute;
 padding-left: -50PX;
 padding-top: 3%;
 z-index: 1;
-margin-left: -13%;
+margin-left: -9%;
 }
 
 .circleright {
 position: absolute;
 z-index: 1;
-padding-left: 104%;
-padding-top: 4%;
+padding-left: 100%;
+padding-top: 3%;
 }
 
 .outset {
