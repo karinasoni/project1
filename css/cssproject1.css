@@ -363,6 +363,7 @@ color: #cccccc;
 
 .did {
     min-height: 230px;
+    margin-left: 33%;
 
 }
  
@@ -414,13 +415,11 @@ color: #cccccc;
  
  .mess1{
     border-radius: 7px;
-    padding-left: 10%;
     padding-top: 8%;
  }
  
  .mess2 {
     padding-top:8%;
-    margin-left: -2em;
     border-radius: 7px;
  }
  
@@ -530,10 +529,10 @@ margin-left: -13%;
 }
 
 .circleright {
-    position: absolute;
-    z-index: 1;
-    padding-left: 42.5em;
-    padding-top: 6em;
+position: absolute;
+z-index: 1;
+padding-left: 104%;
+padding-top: 4%;
 }
 
 .outset {
@@ -623,6 +622,10 @@ margin-left: -13%;
 .sweeplink:hover{
     text-decoration: none;
     color:#2498f2;
+}
+
+.uparrow {
+    padding-left: 19%;
 }
 
 .logoutimage {
